@@ -1,0 +1,118 @@
+    header {
+        background-color: rgb(241, 21, 69);
+    }
+    
+    body {
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+        border: solid 9px rgb(26, 155, 138);
+        grid-template-columns: 1fr;
+        background: rgb(97, 76, 148);
+        background: linear-gradient(180deg, rgba(97, 76, 148, 1) 48%, rgba(16, 188, 237, 0.6727065826330532) 100%);
+    }
+    
+    div {
+        border: solid blue 5px;
+        padding: 7px;
+    }
+    
+    main {
+        border: solid 10px green;
+    }
+    
+    footer {
+        border: solid 10px orange;
+    }
+    
+    h1 {
+        border: solid 10px orange;
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    ul {
+        border: solid 7px black;
+        padding: 0%;
+    }
+    
+    section {
+        border: solid 6px blue;
+        text-align: center;
+    }
+    /* -------------------- en haut c est le starter build-
+-----------------------------------------------------   */
+    
+    .grid {
+        display: grid;
+    }
+    
+    .flex {
+        display: flex;
+    }
+    
+    .jcspacebetween {
+        justify-content: space-between;
+    }
+    
+    .puces {
+        list-style-type: none;
+    }
+    
+    .ulHeader li {
+        padding: 2px;
+    }
+    /*------------------------------------------------*/
+    
+    .ulFooter {
+        text-align: center;
+        align-items: center;
+    }
+    
+    .ulFooter li {
+        padding: 13px;
+        margin-left: 38px;
+        margin-right: 38px;
+    }
+    
+    input {
+        width: 20vw;
+        height: 4vh;
+        color: green;
+    }
+    
+    .sectionFirst {
+        text-align: center;
+    }
+    
+    .imgArtistes {
+        width: 8vw;
+        height: 15vh;
+        border: solid #e26a88 2px;
+    }
+    
+    .imgRecentes {
+        width: 16vw;
+        height: 29vh;
+        border: solid #ad2ef7 1px;
+        padding: 3px;
+    }
+    
+    .titreSimple {
+        font-size: 18px;
+        color: orangered;
+    }
+    
+    .titreBold {
+        font-size: 38px;
+        color: black;
+    }
+    
+    h1 {
+        font-size: 68px;
+    }
+    
+    .fab {
+        color: white;
+    }

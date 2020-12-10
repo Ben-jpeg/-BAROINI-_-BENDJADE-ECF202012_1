@@ -1,0 +1,39 @@
+EVAL#1 - DEC 2020
+
+                           09DEC2020
+  
+------1 MAQUETTAGE------
+Après avoir lu les directives du cahier des charges, je me lances dans le maquettage des pages sur Figma. 
+
+Il y aura 3 pages:
+
+-Page d'accueil;
+-Page "Mes artistes" n°1 avec présentation d'un artiste;
+-Page "Mes artistes" n°2 avec présentation d'un autre artiste.
+
+J'ai décidé de maintenir le code couleur global du site original, mettre un tout petit peu au gout du jour, et réorganisé la disposition pour moderniser le site (dans la limite ce que qui est autorisé dans le cahier des charges).
+
+Figma modifiable.vers:
+https://www.figma.com/file/7BuiR61IssTe8HqJs0Ij2s/Untitled?node-id=0%3A1
+
+Figma visual.vers: 
+https://www.figma.com/proto/7BuiR61IssTe8HqJs0Ij2s/Untitled?node-id=3%3A0&scaling=min-zoom
+
+(Maquette Figma dispo en jpg dans dossier 'img')
+
+----2 CODAGE HTML INDEX------
+
+Html commencé mais pas encore terminé
+
+-----------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+
+                                   10DEC2020
+                                   
+J'ai aujourd'hui avancé dans le html et le css de la page d'accueil. J'ai dû recommencer le css parce que je m'étais trompé sur l'attributiion de flex et du grid, ce n'était pas responsive. 
+Je me suis fait un indexBIS pour garder l'ancien vu que j'avias bien avancé dessus, si jamais j'ai besoin de piocher des choses dedans.
+
+J'ai ajouté du contenu a la page (images pochettes d'albums et d'artistes). Il me reste à mettre les choses de bonne taille et ajouter des détails (police, couleurs etc) .
+
+------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------                                   
