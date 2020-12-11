@@ -1,6 +1,6 @@
 EVAL#1 - DEC 2020
 
-                           09DEC2020
+                                                                 09DEC2020
   
 ------1 MAQUETTAGE------
 Après avoir lu les directives du cahier des charges, je me lances dans le maquettage des pages sur Figma. 
@@ -25,15 +25,36 @@ https://www.figma.com/proto/7BuiR61IssTe8HqJs0Ij2s/Untitled?node-id=3%3A0&scalin
 
 Html commencé mais pas encore terminé
 
------------------------------------------------------------------------------------
----------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------
 
-                                   10DEC2020
+                                                               10DEC2020
                                    
 J'ai aujourd'hui avancé dans le html et le css de la page d'accueil. J'ai dû recommencer le css parce que je m'étais trompé sur l'attributiion de flex et du grid, ce n'était pas responsive. 
 Je me suis fait un indexBIS pour garder l'ancien vu que j'avias bien avancé dessus, si jamais j'ai besoin de piocher des choses dedans.
 
 J'ai ajouté du contenu a la page (images pochettes d'albums et d'artistes). Il me reste à mettre les choses de bonne taille et ajouter des détails (police, couleurs etc) .
 
-------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------                                   
+------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------
+
+                                                              11DEC2020    
+                                                              
+
+J'ai arrangé le html et ajouté certains éléments html pour finaliser au mieux la page et qu'elle soit prête pour les media queries que je veux ajouter, pour qu'elle soit responsive comme je je vois et comme je l'ai fait dans ma maquette.
+
+J'ai découvert un problème par rapport au footer, il ne se collait pas en bas de page lorsque je mettais la page sous version téléphone ou ipad. Mais j'ai réussi à régler le problème, avec aussi la barre de recherche que j'ai réussi à paramétrer correctement.
+
+J'ai réarrangé le css pour qu'il soit plus lisible à l'aide des commentaires que j'avais mis . 
+
+J'ai bloqué sur le media query mais j'ai finalement réussi a faire ce que je voulais.
+Je voulais que les images d'artistes et d'albums aillent à la ligne automatiquement lorsque la fenetre est trop réduite pour pouvoir les disposer à la ligne correctement.
+
+En + du mediaquery j'y ai ajouté des :hover pour que ca rende la page web statique un peu plus vivante, interactive au minimum.
+Le html et css de la page d'accueil est normalement terminé.
+
+------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+                                                                                    

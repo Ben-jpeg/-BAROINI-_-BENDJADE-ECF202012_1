@@ -4,23 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <link type="text/css" rel="stylesheet" href="./CSS/musicIndex.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@600&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/93585804ff.js" crossorigin="anonymous"></script>
     <title>MY MUSIC - Accueil</title>
 </head>
 
-
+<!--------------------------------HEAD FIN------------------------------------->
+<!-------------------------------BODY START----------------------------------->
 
 <body class="grid">
     <header class="flex jcspacebetween">
-        <div>
-            <h1> MY MUSIC </h1>
+        <div class="headerGauche">
+            <h1>MY MUSIC<span class="c">©</span></h1>
         </div>
 
-        <div class="">
+        <div class="headerDroite">
 
             <input type="search" id="header-search" placeholder="Rechercher par nom/groupe :">
 
-            <ul class="puces flex jcspacebetween ulHeader ">
+            <ul class="puces flex jcspacebetween ulHeader">
                 <li>Spotify <i class="fab fa-spotify"></i></li>
                 <li>Deezer <i class="fab fa-deezer"></i></li>
             </ul>
@@ -28,9 +31,10 @@
     </header>
 
     <main>
-        <h2 class="titreBold">Les artistes</h2>
 
-        <section class="flex jcspacebetween">
+        <h2 class="titreBold">LES ARTISTES</h2>
+        <!-- images artistes-->
+        <section class="flex jcspacebetween jccenter wrap">
 
             <div><img src="./img/nirvana.jpg" class="imgArtistes"></div>
             <div><img src="./img/vald.jpg" class="imgArtistes"></div>
@@ -45,10 +49,10 @@
         </section>
 
 
-        <h2 class="titreSimple"><b class="titreBold">Mes recherches récentes:</b>SIK-K, Led Zeppelin, Keith Ape, Hamza, Lolo Zouaï, Freeze Corleone, The Gazette, Travis Scott, Adele... </h2>
+        <h2><span class="titreBold">Mes recherches récentes </span><span class="titreSimple"><a href="#">SIK-K</a>,  <a href="#">Led Zeppelin</a>,  <a href="#">Keith Ape</a>,  <a href="#">Hamza</a>,  <a href="#">Lolo Zouaï</a>,  <a href="#">Freeze Corleone</a>,  <a href="#">The Gazette</a>,  <a href="#">Travis Scott</a>,  <a href="#">Adele</a>... </span></h2>
 
-        <section class="flex jcspacebetween">
-
+        <section class="flex jcspacebetween jccenter wrap ">
+            <!-- images albums recherches récentes-->
             <div><img src="./img/sikk.jpg" class="imgRecentes"></div>
             <div><img src="./img/ledzepplin.jpg" class="imgRecentes"></div>
             <div><img src="./img/keithapeB.jpg" class="imgRecentes"></div>
@@ -56,20 +60,19 @@
             <div><img src="./img/lolozouai.jpg" class="imgRecentes"></div>
 
         </section>
-
-
-
+        <!-- phrase catchy de bas de page d'accueil-->
+        <p class="blabla"> Plus de 100 000 musiques disponibles sur tout supports. Que ce soit sur téléphone, ordinateur ou même tablette, MyMusic© vous suit partout !</p>
 
     </main>
 
     <footer>
 
-        <ul class="puces flex jcspacebetween">
-            <li>A PROPOS</li>
-            <li>SUPPORT</li>
-            <li>PARTENAIRES</li>
-            <li>LIENS</li>
-            <li>CONTACT</li>
+        <ul class="puces flex jcspacebetween ulFooter">
+            <li><a href="#">A PROPOS</a></li>
+            <li><a href="#">SUPPORT</a></li>
+            <li><a href="#">PARTENAIRES</a></li>
+            <li><a href="#">LIENS</a></li>
+            <li><a href="#">CONTACT</a></li>
         </ul>
 
     </footer>
