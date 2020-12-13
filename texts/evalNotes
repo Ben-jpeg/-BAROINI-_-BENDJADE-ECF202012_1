@@ -10,6 +10,7 @@ Il y aura 3 pages:
 -Page d'accueil;
 -Page "Mes artistes" n°1 avec présentation d'un artiste;
 -Page "Mes artistes" n°2 avec présentation d'un autre artiste.
+Du HTML, CSS, et du JavaScript (du scrollreveal pour une meilleure présentation esthétique)
 
 J'ai décidé de maintenir le code couleur global du site original, mettre un tout petit peu au gout du jour, et réorganisé la disposition pour moderniser le site (dans la limite ce que qui est autorisé dans le cahier des charges).
 
@@ -41,20 +42,34 @@ J'ai ajouté du contenu a la page (images pochettes d'albums et d'artistes). Il 
                                                               11DEC2020    
                                                               
 
-J'ai arrangé le html et ajouté certains éléments html pour finaliser au mieux la page et qu'elle soit prête pour les media queries que je veux ajouter, pour qu'elle soit responsive comme je je vois et comme je l'ai fait dans ma maquette.
+J'ai arrangé le html et ajouté certains éléments html pour finaliser au mieux la page et qu'elle soit prête pour les media queries que je veux ajouter, pour qu'elle soit responsive comme je le vois dans ma tête et comme je l'ai fait dans ma maquette.
 
-J'ai découvert un problème par rapport au footer, il ne se collait pas en bas de page lorsque je mettais la page sous version téléphone ou ipad. Mais j'ai réussi à régler le problème, avec aussi la barre de recherche que j'ai réussi à paramétrer correctement.
+J'ai découvert un problème par rapport au footer, il ne se collait pas en bas de page lorsque je mettais la page sous version téléphone ou ipad. Mais j'ai réussi à régler le problème, avec aussi la barre de recherche que j'ai réussi à paramétrer correctement: 
+j'ai mis dans le css de 'body' width: 100% et height: 100% pour que l'affichage se répartisse de facon optimale et prenne toute la place qui lui est dispo.
 
 J'ai réarrangé le css pour qu'il soit plus lisible à l'aide des commentaires que j'avais mis . 
 
 J'ai bloqué sur le media query mais j'ai finalement réussi a faire ce que je voulais.
-Je voulais que les images d'artistes et d'albums aillent à la ligne automatiquement lorsque la fenetre est trop réduite pour pouvoir les disposer à la ligne correctement.
+Je voulais que les images d'artistes et d'albums aillent à la ligne automatiquement lorsque la fenetre est trop réduite pour pouvoir les disposer à la ligne correctement. J'ai découvert 'wrap', une fontion en flex bien pratique !
 
-En + du mediaquery j'y ai ajouté des :hover pour que ca rende la page web statique un peu plus vivante, interactive au minimum.
-Le html et css de la page d'accueil est normalement terminé.
+En + du mediaquery j'y ai ajouté des :hover pour que ca rende la page web statique un peu plus vivante, interactive au minimum. Le :hover permets de faire interagir un élément spécifique du html qui s'affiche sur la page, au passage de la souris dessus.
+
+
+Le html et css de la page d'accueil est pratiquement terminé, normalement je passerai a l'autre page à faire pour la suite.
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------
+                                                                  13DEC2020
+                                                                  
+J'ai ajouté la page JS et mis en place un scrollreveal, c'est mieux visuelement je trouve. 
+Donc j'ai pris le script du site https://scrollrevealjs.org/ et ai aussi fait une page script pour pouvoir appliquer ce scollreveal sur les éléments que je souhaite en les spécifiant. J'ai ajouté une propriété a la fonction 'reveal' qui s'appelle 'delay': ça permets de pouvoir définir un délai/compte à rebours sur l'affichage des éléments ciblés du html. 
 
+J'attaque l'autre page càd la page présentation d'un artiste.
+
+J'ai fait le html et commencé le css, le plan du site est pratiquement fait. 
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------
+                                                                  
 
                                                                                     
