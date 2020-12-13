@@ -39,9 +39,6 @@ ul {
 }
 
 
-/* -----------------------------------------------------------------*/
-
-
 /*//////////////////////////////////////////////////////////////////*/
 
 
@@ -78,9 +75,6 @@ a {
 }
 
 
-/*------------------------------------------------------------------*/
-
-
 /*//////////////////////////////////////////////////////////////////*/
 
 
@@ -112,7 +106,7 @@ input {
     color: white;
 }
 
-.fab {
+.logoUp {
     color: white;
     font-size: 35px;
 }
@@ -121,9 +115,6 @@ input {
     color: white;
     font-size: 27px;
 }
-
-
-/*----END Header----------------------------------------------------*/
 
 
 /*//////////////////////////////////////////////////////////////////*/
@@ -165,6 +156,17 @@ input {
     font-family: 'Lobster', cursive;
 }
 
+.logoBot {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+}
+
+.logoDown {
+    padding: 4%;
+}
+
 
 /* t'as testé un truc vite fait par rapport aux px et media,
    si ca marche pas tu remets ca
@@ -179,9 +181,6 @@ input {
     height: 29vh;
     border: solid #000000 2px;
 } */
-
-
-/*----FIN Main ----------------------------------------------------*/
 
 
 /*/////////////////////////////////////////////////////////////////*/
@@ -206,9 +205,6 @@ footer {
 }
 
 
-/*----END Footer----------------------------------------------------*/
-
-
 /*//////////////////////////////////////////////////////////////////*/
 
 
@@ -223,7 +219,7 @@ footer {
     .ulHeader li {
         font-size: 26px;
     }
-    .fab {
+    .logoUp {
         font-size: 40px;
     }
     .c {
@@ -247,6 +243,12 @@ footer {
         height: 310px;
         border: solid #000000 2px;
     }
+    .partDeux {
+        margin-top: 18%;
+    }
+    .logoBot {
+        font-size: 70px;
+    }
     /*footer*/
     footer {
         font-weight: bold;
@@ -264,7 +266,7 @@ footer {
     .ulHeader li {
         font-size: 30px;
     }
-    .fab {
+    .logoUp {
         font-size: 45px;
     }
     .c {
@@ -288,10 +290,10 @@ footer {
         height: 330px;
         border: solid #000000 2px;
     }
+    .logoBot {
+        font-size: 70px;
+    }
 }
-
-
-/*----END Medi@ Queries---------------------------------------------*/
 
 
 /*//////////////////////////////////////////////////////////////////*/
@@ -324,5 +326,9 @@ a:hover {
 }
 
 h1:hover {
-    color: rgb(0, 0, 0);
+    color: rgb(89, 214, 204);
+}
+
+.logoDown:hover {
+    color: crimson;
 }
