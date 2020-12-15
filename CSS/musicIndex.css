@@ -14,6 +14,7 @@ body {
 
 header {
     background-color: rgb(241, 21, 69);
+    padding: 3%;
 }
 
 main {
@@ -204,6 +205,44 @@ footer {
 /*//////////////////////////////////////////////////////////////////*/
 
 
+/*----Hover---------------------------------------------------------*/
+
+a:hover {
+    color: rgb(245, 84, 84);
+}
+
+.fa-spotify:hover {
+    color: greenyellow;
+}
+
+.fa-deezer:hover {
+    color: rgb(253, 218, 22);
+}
+
+.imgArtistes:hover {
+    border: solid rgb(255, 77, 77) 2px;
+}
+
+.imgRecentes:hover {
+    border: solid #f54141 2px;
+}
+
+.titreBold:hover {
+    color: rgb(89, 214, 204);
+}
+
+h1:hover {
+    color: rgb(89, 214, 204);
+}
+
+.logoDown:hover {
+    color: crimson;
+}
+
+
+/*//////////////////////////////////////////////////////////////////*/
+
+
 /*----Medi@ Queries-------------------------------------------------*/
 
 @media screen and (max-width:1025px) and (min-width:768px) {
@@ -289,42 +328,4 @@ footer {
     .logoBot {
         font-size: 70px;
     }
-}
-
-
-/*//////////////////////////////////////////////////////////////////*/
-
-
-/*----Hover---------------------------------------------------------*/
-
-a:hover {
-    color: rgb(236, 15, 15);
-}
-
-.fa-spotify:hover {
-    color: rgb(106, 224, 106);
-}
-
-.fa-deezer:hover {
-    color: rgb(253, 218, 22);
-}
-
-.imgArtistes:hover {
-    border: solid rgb(235, 115, 115) 2px;
-}
-
-.imgRecentes:hover {
-    border: solid #f55656 2px;
-}
-
-.titreBold:hover {
-    color: rgb(89, 214, 204);
-}
-
-h1:hover {
-    color: rgb(89, 214, 204);
-}
-
-.logoDown:hover {
-    color: crimson;
 }

@@ -70,6 +70,28 @@ J'ai fait le html et commencé le css, le plan du site est pratiquement fait.
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------
-                                                                  
+                                                            14DEC2020
+                                                            
+J'ai fait la page présentation d'un artiste, mais j'ai un problème: le média query ne veut pas fonctionner à 100% je ne sais pas pourquoi. Sur chrome il semble ne pas fonctionner, mais sur Firefox il marche de temps en temps. J'essayerai de voir ce que je peux faire demain mais je vois pas trop ce que je peux faire, j'ai essayé tellement de choses. Peut etre qu c'est le bug que GoogleChrome a subi aujourd'hui qui fait ça, mais j'en suis pas sur.      
+
+------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------
+                                                            15DEC2020
+                                                            
+  J'ai  pas réussi à résoudre le problème de l'inspecteur. J'ai finalisé la page A et page B, inséré des liens sur le titre en header pour pouvoir revenir sur la page d'accueil.
+  J'ai placé des :hover comme sur les pages précédentes et un scrollreveal.
+  
+  J'ai aussi mis des liens sur la page d'accueil et sur les autres pages pour pouvoir aller sur les pages A et pages B: 
+ sur la page d'accueil, il suffit de cliquer sur 'Youv Dee' écrit en tant que noms d'artistes sur la rubrique "mes recherches récentes" pour accéder à la page A . 
+ Pour la page 2, sur la page d'accueil il suffit de cliquer sur la photo de Dua Lipa présente sur la 1re rubrique "mes artistes".
+ 
+ De la même manière, il est possible d'accéder à la page B (page Artist - Youv Dee) depuis la page A (page Artist - Dua Lipa) en cliquant sur le nom ou l'image de l'artiste même.
+ 
+ 
+ ------------------------------------------------------------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------------------------------------
+                                                            
+                                                            
+                                                             
 
                                                                                     

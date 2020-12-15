@@ -214,7 +214,7 @@ h4 {
 .imgRtist {
     width: 25vw;
     height: 28vh;
-    border: solid 2px rgb(202, 202, 202);
+    border: solid 2px rgb(255, 255, 255);
     border-radius: 11px;
     box-shadow: 1px 1px 12px rgb(0, 0, 0);
 }
@@ -291,11 +291,11 @@ h1 a:hover {
 }
 
 .fa-instagram:hover {
-    color: rgb(224, 62, 130);
+    color: crimson;
 }
 
 .fa-twitter:hover {
-    color: rgb(241, 42, 142);
+    color: crimson;
 }
 
 .fa-spotify:hover {
@@ -321,7 +321,7 @@ h1 a:hover {
         font-size: 75px;
     }
     section {
-        grid-template-columns: 1fr;
+        grid-template-columns: none
     }
     article {
         display: flex;
@@ -332,13 +332,14 @@ h1 a:hover {
         height: 50%;
     }
     .imgRtist {
-        width: 75vw;
-        height: 56vh;
+        width: 65vw;
+        height: 54vh;
         display: flex;
+        border: solid 2px rgb(126, 126, 126);
     }
     iframe {
-        width: 75vw;
-        height: 60vh;
+        width: 65vw;
+        height: 54vh;
         padding: 0%;
     }
 }
