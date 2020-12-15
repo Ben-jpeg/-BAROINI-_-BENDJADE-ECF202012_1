@@ -37,7 +37,6 @@ ul {
 
 .flex {
     display: flex;
-    flex-direction: row;
 }
 
 .jcspacebetween {
@@ -110,27 +109,148 @@ input {
 
 /*----Main--------------------------------------------------------*/
 
-body {
-    border: solid cyan 7px;
-}
-
 main {
     grid-template-rows: 1fr 1fr;
-    border: solid 7px rgb(240, 218, 25);
 }
 
 section {
-    border: solid 8px red;
     grid-template-columns: 1fr 1fr;
 }
 
 article {
-    border: solid 8px rgb(74, 145, 77)
+    flex-direction: column;
+    margin-top: 20px;
 }
 
 h2 {
     margin: 0%;
     padding: 0%;
+    font-size: 60px;
+    text-align: center;
+    margin: 3%;
+    padding-bottom: 15%;
+    color: rgb(255, 254, 254);
+}
+
+.ecart {
+    margin-top: 50%;
+}
+
+
+/* PARTIE HAUTE ///////////////////// */
+
+
+/* coté image et description artiste principal de la page*/
+
+.imgYouvDee {
+    width: 45vw;
+    height: 50vh;
+    border: solid white 3px;
+    border-radius: 9px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+.youvTitle {
+    text-align: left;
+    color: white;
+}
+
+.odp {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+p {
+    font-style: italic;
+    font-size: 20px;
+}
+
+
+/* coté concerts*/
+
+.youvConcerts {
+    text-align: right;
+    color: rgb(252, 252, 252);
+}
+
+.listConcerts {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.listConcerts li {
+    padding: 3%
+}
+
+
+/* PARTIE BASSE /////////////////////// */
+
+h4 {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+/* coté images autres artistes*/
+
+.artistsTitle {
+    text-align: left;
+    color: white;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+.imgRtist {
+    width: 25vw;
+    height: 28vh;
+    border: solid 2px crimson;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+}
+
+.imgP {
+    text-align: left;
+    margin-left: 2%;
+    font-weight: bold;
+    color: yellow;
+}
+
+
+/* coté vidéos*/
+
+.mvTitle {
+    text-align: right;
+    color: white;
+    text-shadow: rgb(255, 205, 4) 1px 0 10px;
+}
+
+iframe {
+    width: 25vw;
+    height: 29vh;
+}
+
+.mvP {
+    text-align: right;
+    margin-right: 2%;
+    font-weight: bold;
+    color: yellow;
+}
+
+
+/*----*/
+
+.logoDown {
+    color: white;
+    font-size: 55px;
+    padding: 5%;
+    margin-top: 144px;
 }
 
 
@@ -156,4 +276,57 @@ footer {
 }
 
 
+/* /////////////////////////////////// */
+
+
+/* Hover -------------------------------------------*/
+
+.fa-instagram:hover {
+    color: rgb(224, 62, 130);
+}
+
+.fa-twitter:hover {
+    color: rgb(241, 42, 142);
+}
+
+.fa-spotify {
+    color: greenyellow;
+}
+
+.fa-deezer {
+    color: yellow
+}
+
+
 /*//////////////////////////////////////////////////////////////////*/
+
+
+/* ------Medi@ Query----------------------------------------------- */
+
+@media screen and (max-width:780px) {
+    h1 {
+        font-size: 75px;
+    }
+    section {
+        grid-template-columns: 1fr;
+    }
+    article {
+        display: flex;
+        align-items: center;
+    }
+    .imgYouvDee {
+        width: 95%;
+        height: 50%;
+    }
+    .imgRtist {
+        width: 65vw;
+        height: 54vh;
+        display: flex;
+        border: solid 5px crimson;
+    }
+    iframe {
+        width: 65vw;
+        height: 54vh;
+        padding: 0%;
+    }
+}

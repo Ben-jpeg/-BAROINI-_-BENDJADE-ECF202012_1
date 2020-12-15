@@ -34,28 +34,27 @@
     <!-- Header fin -->
 
     <!-- Main debut-->
-    <main class="grid">
-
-        <h2>Biogaphie de l'artiste</h2>
+    <main>
+        <h2> Biographie de l'artiste</h2>
 
         <section class="grid">
 
             <article>
-                <img src="./img/youvdee.jpg">
-                <h3> YOUV DEE</h3>
-                <p>Membre du groupe l'Ordre Du Périph avec Assy, Swan et Arsn, YOUV DEE apparaît pour la première fois en solo 2016 sur « Freestyle Nitro ».Début 2017, il sort sa première mixtape en binôme avec Assy intitulé 'Beta Test'.</p>
+                <img class="imgYouvDee" src="./img/youvdee.jpg">
+                <h3 class="youvTitle"> YOUV DEE</h3>
+                <p class="odp">Membre du groupe l'Ordre Du Périph avec Assy, Swan et Arsn, YOUV DEE apparaît pour la première fois en solo 2016 sur « Freestyle Nitro ».Début 2017, il sort sa première mixtape en binôme avec Assy intitulé 'Beta Test'.</p>
             </article>
 
             <article>
-                <h3>Ses prochains concerts</h3>
-                <ul>
-                    <li>Jeudi 01 Avril 2021 - 20h00 - Le Ferrailleur Nantes (44)</li>
-                    <li>Vendredi 02 Avril 2021 - 20h00 - 1988 Live Club Rennes (35)</li>
-                    <li>Vendredi 09 Avril 2021 - 20h00 - Connexion Live A Toulouse Toulouse (31) 22 €</li>
+                <h3 class="youvConcerts">Ses prochains concerts</h3>
+                <ul class="puces listConcerts ">
+                    <li>01 Avril 2021 - 20h00 - Le Ferrailleur Nantes (44)</li>
+                    <li>02 Avril 2021 - 20h00 - 1988 Live Club Rennes (35)</li>
+                    <li>09 Avril 2021 - 20h00 - Connexion Live à Toulouse (31)</li>
                     <li>Vendredi 16 Avril 2021 - 20h30 - L'affranchi Marseille (13)</li>
                     <li>Mercredi 28 Avril 2021 - 20h00 - Ninkasi Gerland / Kao Lyon (69)</li>
-                    <li>Jeudi 06 Mai 2021 - 20h00 - La Cigale A Paris Paris (75)</li>
-                    <li>Samedi 15 Mai 2021 - 20h00 - L'antirouille A Montpellier Montpellier (34)</li>
+                    <li>Jeudi 06 Mai 2021 - 20h00 - La Cigale à Paris(75)</li>
+                    <li>Samedi 15 Mai 2021 - 20h00 - L'antirouille à Montpellier (34)</li>
                     <li>Vendredi 21 Mai 2021 - 20h30 - Rock School Barbey Bordeaux (33)</li>
                 </ul>
             </article>
@@ -65,25 +64,36 @@
 
 
 
-        <!-- 2e section/parttie artistes et clips-->
+        <!-- 2e section/partie artistes et clips-->
 
 
-        <section class="grid">
+        <section class="grid ecart">
 
 
             <article>
-                <h4>Mes artistes</h4>
-                <img src="">
-                <img src="">
-                <img src="">
+                <h4 class="artistsTitle">Mes artistes</h4>
+
+
+                <p class="imgP">Gun's N Roses</p>
+                <div class="flex jccenter wrap"><img class="imgRtist" src="./img/gunsnrosesB.jpg"></div>
+                <p class="imgP">Billie Eilish</p>
+                <div class="flex jccenter wrap"><img class="imgRtist" src="./img/billieeillishB.png"></div>
+                <p class="imgP">Louane</p>
+                <div class="flex jccenter wrap"><img class="imgRtist" src="./img/louane.jpg"></div>
+                <p class="imgP">BIGBANG</p>
+                <div class="flex jccenter wrap"> <img class="imgRtist" src="./img/bigbang2.jpeg"></div>
             </article>
 
             <article>
-                <h4> Derniers clips</h4>
-                <video src="">
-            <video src="">
-            <video src="">
-
+                <h4 class="mvTitle"> Derniers clips</h4>
+                <p class="mvP">Shadow Of Your Love </p>
+                <div class="flex jccenter"><iframe width="805" height="453" src="https://www.youtube.com/embed/0RizLhYFpac" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <p class="mvP">Therefore I Am</p>
+                <div class="flex jccenter"><iframe width="805" height="453" src="https://www.youtube.com/embed/RUQl6YcMalg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <p class="mvP">Donne Moi Ton Coeur</p>
+                <div class="flex jccenter"><iframe width="805" height="453" src="https://www.youtube.com/embed/sPsCXm14G58" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <p class="mvP">BAE BAE</p>
+                <div class="flex jccenter"><iframe width="805" height="453" src="https://www.youtube.com/embed/TKD03uPVD-Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
             </article>
 
         </section>
@@ -95,15 +105,13 @@
 
 
 
-
-
-
-
-
-        <article class="logoBot">
-            <i class="fab logoDown fa-instagram"></i> <i class="fab logoDown fa-twitter"></i>
-        </article>
     </main>
+
+
+    <div class="logoBot flex jccenter">
+        <i class="fab logoDown fa-instagram"></i>
+        <i class="fab logoDown fa-twitter"></i>
+    </div>
 
 
     <footer>
