@@ -66,7 +66,7 @@ ul {
 }
 
 a {
-    color: rgb(223, 222, 222);
+    color: white;
     text-decoration: none;
 }
 
@@ -94,7 +94,7 @@ h1 {
 
 input {
     width: 25vw;
-    height: 5vh;
+    height: 4vh;
     font-size: 100%;
 }
 
@@ -208,7 +208,7 @@ footer {
 /*----Hover---------------------------------------------------------*/
 
 a:hover {
-    color: rgb(245, 84, 84);
+    color: rgb(241, 36, 0);
 }
 
 .fa-spotify:hover {
@@ -216,7 +216,11 @@ a:hover {
 }
 
 .fa-deezer:hover {
-    color: rgb(253, 218, 22);
+    color: rgb(93, 103, 238);
+}
+
+.fa-star:hover {
+    color: yellow
 }
 
 .imgArtistes:hover {
@@ -231,7 +235,7 @@ a:hover {
     color: rgb(89, 214, 204);
 }
 
-h1:hover {
+h1 a:hover {
     color: rgb(89, 214, 204);
 }
 
@@ -249,10 +253,10 @@ h1:hover {
     /*POUR PADS!*
     /* police du header*/
     h1 {
-        font-size: 90px;
+        font-size: 78px;
     }
     .ulHeader li {
-        font-size: 26px;
+        font-size: 22px;
     }
     .logoUp {
         font-size: 40px;
@@ -296,13 +300,13 @@ h1:hover {
 
     /* police du header*/
     h1 {
-        font-size: 102px;
+        font-size: 78px;
     }
     .ulHeader li {
-        font-size: 30px;
+        font-size: 19px;
     }
     .logoUp {
-        font-size: 45px;
+        font-size: 38px;
     }
     .c {
         font-size: 48px;

@@ -38,7 +38,6 @@ ul {
 
 .flex {
     display: flex;
-    flex-direction: row;
 }
 
 .jcspacebetween {
@@ -148,11 +147,9 @@ h2 {
 
 /* coté image et description artiste principal de la page*/
 
-.imgDuaLipa {
-    /* width: 45vw;
-    height: 50vh; */
-    width: 90%;
-    height: auto;
+.imgYouvDee {
+    width: 45vw;
+    height: 50vh;
     border: solid white 1px;
     border-radius: 9px;
     box-shadow: 9px 9px 13px rgb(26, 26, 26);
@@ -164,7 +161,7 @@ h3 {
     text-shadow: #FC0 1px 0 10px;
 }
 
-.dualipaTitle {
+.youvTitle {
     text-align: left;
     color: white;
 }
@@ -182,7 +179,7 @@ p {
 
 /* coté concerts*/
 
-.dualipaConcerts {
+.youvConcerts {
     text-align: right;
     color: rgb(252, 252, 252);
 }
@@ -215,10 +212,8 @@ h4 {
 }
 
 .imgRtist {
-    /* width: 25vw;
-    height: 28vh; */
-    width: 80%;
-    height: auto;
+    width: 25vw;
+    height: 28vh;
     border: solid 2px rgb(255, 255, 255);
     border-radius: 11px;
     box-shadow: 1px 1px 12px rgb(0, 0, 0);
@@ -241,10 +236,8 @@ h4 {
 }
 
 iframe {
-    /* width: 25vw;
-    height: 29vh; */
-    width: 85vw;
-    height: 30vh;
+    width: 25vw;
+    height: 29vh;
     border-radius: 10px;
 }
 

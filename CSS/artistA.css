@@ -38,6 +38,7 @@ ul {
 
 .flex {
     display: flex;
+    flex-direction: row;
 }
 
 .jcspacebetween {
@@ -57,7 +58,7 @@ ul {
 }
 
 a {
-    color: rgb(255, 255, 255);
+    color: white;
     text-decoration: none;
 }
 
@@ -85,7 +86,7 @@ h1 {
 
 input {
     width: 25vw;
-    height: 5vh;
+    height: 4vh;
     font-size: 100%;
 }
 
@@ -148,8 +149,10 @@ h2 {
 /* coté image et description artiste principal de la page*/
 
 .imgYouvDee {
-    width: 45vw;
-    height: 50vh;
+    /* width: 45vw;
+    height: 50vh; */
+    width: 90%;
+    height: auto;
     border: solid white 1px;
     border-radius: 9px;
     box-shadow: 9px 9px 13px rgb(26, 26, 26);
@@ -212,8 +215,10 @@ h4 {
 }
 
 .imgRtist {
-    width: 25vw;
-    height: 28vh;
+    /* width: 25vw;
+    height: 28vh; */
+    width: 80%;
+    height: auto;
     border: solid 2px rgb(202, 202, 202);
     border-radius: 11px;
     box-shadow: 1px 1px 12px rgb(0, 0, 0);
@@ -236,8 +241,10 @@ h4 {
 }
 
 iframe {
-    width: 25vw;
-    height: 29vh;
+    /* width: 25vw;
+    height: 29vh; */
+    width: 85vw;
+    height: 30vh;
     border-radius: 10px;
 }
 
@@ -303,11 +310,19 @@ h1 a:hover {
 }
 
 .fa-deezer:hover {
-    color: yellow
+    color: rgb(83, 72, 230)
+}
+
+.fa-star:hover {
+    color: yellow;
 }
 
 .imgRtist:hover {
     border: solid 2px black;
+}
+
+a:hover {
+    color: rgb(241, 36, 0);
 }
 
 
@@ -320,6 +335,12 @@ h1 a:hover {
     h1 {
         font-size: 75px;
     }
+    .ulHeader li {
+        font-size: 22px;
+    }
+    .logoUp {
+        font-size: 40px;
+    }
     section {
         grid-template-columns: 1fr;
     }
@@ -328,8 +349,8 @@ h1 a:hover {
         align-items: center;
     }
     .imgYouvDee {
-        width: 95%;
-        height: 50%;
+        width: 90%;
+        height: auto;
     }
     .imgRtist {
         width: 75vw;
