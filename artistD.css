@@ -1,0 +1,359 @@
+/* Balises principales */
+
+body {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    grid-template-columns: 1fr;
+    background: rgb(16, 188, 237);
+    background: linear-gradient(180deg, rgba(16, 188, 237, 0.8239670868347339) 0%, rgba(103, 78, 163, 0.9864320728291317) 14%, rgba(101, 80, 164, 1) 64%, rgba(16, 188, 237, 0.8183648459383753) 100%);
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: rgb(241, 21, 69);
+    padding: 3%;
+}
+
+main {
+    padding: 1%;
+    margin-bottom: 4%;
+}
+
+ul {
+    padding: 0%;
+}
+
+
+/*//////////////////////////////////////////////////////////////////*/
+
+
+/*----Classes générales---------------------------------------------*/
+
+.grid {
+    display: grid;
+}
+
+.flex {
+    display: flex;
+}
+
+.jcspacebetween {
+    justify-content: space-between;
+}
+
+.jccenter {
+    justify-content: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.puces {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/*//////////////////////////////////////////////////////////////////*/
+
+
+/*----Header--------------------------------------------------------*/
+
+h1 {
+    margin: 0%;
+    padding: 0%;
+    font-size: 68px;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+}
+
+.headerDroite {
+    margin-top: 2%;
+}
+
+.headerGauche {
+    margin-top: 1%;
+}
+
+input {
+    width: 25vw;
+    height: 4vh;
+    font-size: 100%;
+}
+
+.ulHeader li {
+    font-weight: bold;
+    color: white;
+}
+
+.logoUp {
+    color: white;
+    font-size: 35px;
+}
+
+.c {
+    color: white;
+    font-size: 27px;
+}
+
+
+/*//////////////////////////////////////////////////////////////////*/
+
+
+/*----Main--------------------------------------------------------*/
+
+main {
+    grid-template-rows: 1fr 1fr;
+}
+
+section {
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(241, 70, 70, 0.253);
+    border-radius: 100px;
+    border: solid 1px rgb(88, 88, 88)
+}
+
+article {
+    flex-direction: column;
+    margin-top: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin: 0%;
+    padding: 0%;
+    font-size: 60px;
+    text-align: center;
+    margin: 3%;
+    padding-bottom: 15%;
+    color: rgb(255, 254, 254);
+}
+
+.ecart {
+    margin-top: 30%;
+}
+
+
+/* PARTIE HAUTE ///////////////////// */
+
+
+/* coté image et description artiste principal de la page*/
+
+.imgYouvDee {
+    width: 45vw;
+    height: 50vh;
+    border: solid white 1px;
+    border-radius: 9px;
+    box-shadow: 9px 9px 13px rgb(26, 26, 26);
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+.youvTitle {
+    text-align: left;
+    color: white;
+}
+
+.odp {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p {
+    font-style: italic;
+    font-size: 20px;
+}
+
+
+/* coté concerts*/
+
+.youvConcerts {
+    text-align: right;
+    color: rgb(252, 252, 252);
+}
+
+.listConcerts {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.listConcerts li {
+    padding: 3%
+}
+
+
+/* PARTIE BASSE /////////////////////// */
+
+h4 {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+/* coté images autres artistes*/
+
+.artistsTitle {
+    text-align: left;
+    color: white;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+.imgRtist {
+    width: 25vw;
+    height: 28vh;
+    border: solid 2px rgb(202, 202, 202);
+    border-radius: 11px;
+    box-shadow: 1px 1px 12px rgb(0, 0, 0);
+}
+
+.imgP {
+    text-align: left;
+    margin-left: 2%;
+    font-weight: bold;
+    color: yellow;
+}
+
+
+/* coté vidéos*/
+
+.mvTitle {
+    text-align: right;
+    color: white;
+    text-shadow: rgb(255, 205, 4) 1px 0 10px;
+}
+
+iframe {
+    width: 25vw;
+    height: 29vh;
+    border-radius: 10px;
+}
+
+.mvP {
+    text-align: right;
+    margin-right: 2%;
+    font-weight: bold;
+    color: yellow;
+}
+
+
+/*----*/
+
+.logoDown {
+    color: white;
+    font-size: 55px;
+    padding: 5%;
+    margin-top: 144px;
+}
+
+
+/*//////////////////////////////////////////////////////////////////*/
+
+
+/*----Footer ------------------------------------------------------*/
+
+footer {
+    font-weight: bold;
+    background-color: rgb(153, 42, 60);
+    margin-top: 25%;
+}
+
+.ulFooter {
+    text-align: center;
+    align-items: center;
+}
+
+.ulFooter li {
+    padding: 13px;
+    margin: 1%;
+}
+
+
+/* /////////////////////////////////// */
+
+
+/* Hover -------------------------------------------*/
+
+h1 a:hover {
+    color: rgb(16, 188, 237);
+}
+
+.fa-instagram:hover {
+    color: rgb(224, 62, 130);
+}
+
+.fa-twitter:hover {
+    color: rgb(241, 42, 142);
+}
+
+.fa-spotify:hover {
+    color: greenyellow;
+}
+
+.fa-deezer:hover {
+    color: rgb(83, 72, 230)
+}
+
+.fa-star:hover {
+    color: yellow;
+}
+
+.imgRtist:hover {
+    border: solid 2px black;
+}
+
+a:hover {
+    color: rgb(241, 36, 0);
+}
+
+
+/*//////////////////////////////////////////////////////////////////*/
+
+
+/* ------Medi@ Query----------------------------------------------- */
+
+@media screen and (max-width:780px) {
+    h1 {
+        font-size: 75px;
+    }
+    .ulHeader li {
+        font-size: 22px;
+    }
+    .logoUp {
+        font-size: 40px;
+    }
+    section {
+        grid-template-columns: 1fr;
+    }
+    article {
+        display: flex;
+        align-items: center;
+    }
+    .imgYouvDee {
+        width: 90%;
+        height: auto;
+    }
+    .imgRtist {
+        width: 75vw;
+        height: 56vh;
+        display: flex;
+    }
+    iframe {
+        width: 75vw;
+        height: 60vh;
+        padding: 0%;
+    }
+}
