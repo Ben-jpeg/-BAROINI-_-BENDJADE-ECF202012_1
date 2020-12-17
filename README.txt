@@ -11,14 +11,14 @@ EVAL#1 - DEC 2020
 Ces deux éléments sont présents à l'identique sur toute les pages du site.
 
 
-                                            PAGE D'ACCUEIL
+                                              -- PAGE D'ACCUEIL --
 La page d'accueil contient le header, footer, et entre les deux en début de page la rubrique "Les artistes" qui comporte 8 images d'artistes sur lesquel nous sommes censé pouvoir cliquer dessus pour accéder à leur biographie et leur musique, ainsi qu'une image qui permet une fois cliqué dessus, de voir la suite des propositions d'artistes.
 
 Suivi de la rubrique "Mes recherches récentes" qui comporte un historique d'artistes qui a été recherché par l'utilisateur et les 5 pochettes d'albums des musiques écoutés.
 
 Il y a ensuite une phrase destiné au client courte et simple, puis les logos des réseaux sociaux sur lesquels est MyMusic: Instagram et Twitter.  
 
-                                           PAGE D'ARTISTE
+                                              -- PAGE D'ARTISTES --
 La page d'artiste comporte aussi le header et footer. En début de page, un <h2> qui fait office de titre de page.
 Puis s'en suit une image de l'artiste ainsi que son nom, et une brève biographie. La liste de ses concerts à venir est aussi présent.
 
@@ -36,16 +36,24 @@ Enfin, les logos des réseaux sociaux en bas de page.
  -depuis n'importe quel page, cliquer sur le logo 'My Music ©' présent en haut de page dans le header.
  
   
+  
+  
+                                          ***ACCÉDER À LA PAGE A***:
+ -sur la page d'accueil, il faut cliquer sur l'image de l'artiste Dua Lipa, la 3e artiste en partant de la gauche.
+  
+  
                                           ***ACCÉDER À LA PAGE B-bis***:
  -sur la page d'accueil, il suffit de cliquer sur 'Youv Dee' écrit en
  tant que noms d'artistes sur la rubrique "mes recherches récentes" pour accéder à la page A . 
  
  -Autre solution: une fois sur la page Abis, il suffit de cliquer sur 'Youv Dee' ou 
  l'image qui correspond à l'artiste YouvDee en bas de page à la rubrique 'Mes artistes'.
+
  
  
-                                          ***ACCÉDER À LA PAGE A***:
- -sur la page d'accueil, il faut cliquer sur l'image de l'artiste Dua Lipa, la 3e artiste en partant de la gauche.
+ 
+ 
+ 
  
  Les pages artistes Abis et Bbis auquel vous accédez ont été réalisé dans le but de pouvoir tenir sur le téléphone.
  
