@@ -116,9 +116,9 @@ main {
 
 section {
     grid-template-columns: 1fr 1fr;
-    background-color: rgb(241, 70, 70);
+    background-color: rgba(241, 70, 70, 0.212);
     border-radius: 100px;
-    border: solid 2px rgb(255, 0, 0)
+    border: solid 1px rgb(59, 59, 59)
 }
 
 article {
@@ -169,6 +169,7 @@ h3 {
 .odp {
     color: rgb(255, 255, 255);
     font-weight: bold;
+    font-size: 20px;
 }
 
 p {
