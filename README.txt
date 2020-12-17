@@ -11,14 +11,14 @@ EVAL#1 - DEC 2020
 Ces deux éléments sont présents à l'identique sur toute les pages du site.
 
 
-                                                             PAGE D'ACCUEIL
+                                            PAGE D'ACCUEIL
 La page d'accueil contient le header, footer, et entre les deux en début de page la rubrique "Les artistes" qui comporte 8 images d'artistes sur lesquel nous sommes censé pouvoir cliquer dessus pour accéder à leur biographie et leur musique, ainsi qu'une image qui permet une fois cliqué dessus, de voir la suite des propositions d'artistes.
 
 Suivi de la rubrique "Mes recherches récentes" qui comporte un historique d'artistes qui a été recherché par l'utilisateur et les 5 pochettes d'albums des musiques écoutés.
 
 Il y a ensuite une phrase destiné au client courte et simple, puis les logos des réseaux sociaux sur lesquels est MyMusic: Instagram et Twitter.  
 
-                                                            PAGE D'ARTISTE
+                                           PAGE D'ARTISTE
 La page d'artiste comporte aussi le header et footer. En début de page, un <h2> qui fait office de titre de page.
 Puis s'en suit une image de l'artiste ainsi que son nom, et une brève biographie. La liste de ses concerts à venir est aussi présent.
 
@@ -28,15 +28,15 @@ Enfin, les logos des réseaux sociaux en bas de page.
 
 
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-                                                      ***Accéder à la page d'accueil***:
+                                         ***Accéder à la page d'accueil***:
  -depuis n'importe quel page, cliquer sur le logo 'My Music ©' présent en haut de page dans le header.
  
   
-                                                      ***Accéder à la page Bbis***:
+                                          ***Accéder à la page Bbis***:
  -sur la page d'accueil, il suffit de cliquer sur 'Youv Dee' écrit en
  tant que noms d'artistes sur la rubrique "mes recherches récentes" pour accéder à la page A . 
  
@@ -44,29 +44,29 @@ Enfin, les logos des réseaux sociaux en bas de page.
  l'image qui correspond à l'artiste YouvDee en bas de page à la rubrique 'Mes artistes'.
  
  
-                                                     ***Accéder à la page A***:
+                                          ***Accéder à la page A***:
  -sur la page d'accueil, il faut cliquer sur l'image de l'artiste Dua Lipa, la 3e artiste en partant de la gauche.
  
  Les pages artistes Abis et Bbis auquel vous accédez ont été réalisé dans le but de pouvoir tenir sur le téléphone.
  
- ------------     --------------------     --------------------     -------------------------     -------------------     ----------------
+ ------------     --------------------     --------------------     -------------------------     
    
    Il y a d'autres page artiste C et D sur lesquel le mediaquery ne veux pas fonctionner, ce sont les premières pages que j'ai réalisé, mais j'ai pas réussi à les faire tenir sur le responsive telephone dans l'inspecteur.
              
              
-                                                      ***Accéder à la page C*** 
+                                             ***Accéder à la page C*** 
  -Depuis la page d'accueil, cliquez sur 'Dua Lipa' dans la liste des 
 noms d'artistes dans la rubrique "Mes recherches récentes". Vous accèderez alors 
 à la page C, qui est la page A d'origine, agencé différement.
 
-                                                     ***Accéder à la page D***
+                                             ***Accéder à la page D***
  -Depuis la page C, cliquez sur le nom d'artiste 'Youv Dee' ou sur l'image correspondante de l'artiste, 
 présent en descendant la page, après la présentation de l'artiste Dua Lipa, dans
  la rubrique "Mes artistes"
 
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
@@ -89,10 +89,10 @@ Du HTML, CSS, et du JavaScript (du scrollreveal pour une meilleure présentation
 J'ai décidé de maintenir le code couleur global du site original, mettre un tout petit peu au gout du jour, et réorganisé la disposition pour moderniser le site (dans la limite ce que qui est autorisé dans le cahier des charges).
 
 Quant au nom des images et documents, j'ai choisi une convetion en camelCase.
-Figma modifiable.vers:
+-Figma modifiable.vers:
 https://www.figma.com/file/7BuiR61IssTe8HqJs0Ij2s/Untitled?node-id=0%3A1
 
-Figma visual.vers: 
+-Figma visual.vers: 
 https://www.figma.com/proto/7BuiR61IssTe8HqJs0Ij2s/Untitled?node-id=3%3A0&scaling=min-zoom
 
 (Maquette Figma dispo en png dans dossier 'maquette')
@@ -101,8 +101,8 @@ https://www.figma.com/proto/7BuiR61IssTe8HqJs0Ij2s/Untitled?node-id=3%3A0&scalin
 
 Html commencé mais pas encore terminé
 
-------------------------------------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
 
                                                                10DEC2020
                                    
@@ -132,8 +132,8 @@ En + du mediaquery j'y ai ajouté des :hover pour que ca rende la page web stati
 
 Le html et css de la page d'accueil est pratiquement terminé, normalement je passerai a l'autre page à faire pour la suite.
 
-------------------------------------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
                                                                   13DEC2020
                                                                   
 J'ai ajouté la page JS et mis en place un scrollreveal, c'est mieux visuelement je trouve. 
@@ -143,14 +143,14 @@ J'attaque l'autre page càd la page présentation d'un artiste.
 
 J'ai fait le html et commencé le css, le plan du site est pratiquement fait. 
 
--------------------------------------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
                                                             14DEC2020
                                                             
 J'ai fait la page présentation d'un artiste, mais j'ai un problème: le média query ne veut pas fonctionner à 100% je ne sais pas pourquoi. Sur chrome il semble ne pas fonctionner, mais sur Firefox il marche de temps en temps. J'essayerai de voir ce que je peux faire demain mais je vois pas trop ce que je peux faire, j'ai essayé tellement de choses. Peut etre qu c'est le bug que GoogleChrome a subi aujourd'hui qui fait ça, mais j'en suis pas sur.      
 
-------------------------------------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
                                                             15DEC2020
                                                             
   J'ai  pas réussi à résoudre le problème de l'inspecteur. J'ai finalisé la page A et page B, inséré des liens sur le titre en header pour pouvoir revenir sur la page d'accueil.
@@ -159,8 +159,8 @@ J'ai fait la page présentation d'un artiste, mais j'ai un problème: le média 
   J'ai aussi mis des liens sur la page d'accueil et sur les autres pages pour pouvoir aller sur les pages A et pages B
   
   
-   ------------------------------------------------------------------------------------------------------------------------------------------
- ------------------------------------------------------------------------------------------------------------------------------------------
+   -----------------------------------------------------------------------------------------------------------
+ -------------------------------------------------------------------------------------------------------------
                                                             
                                                             16DEC2020
                                                             
