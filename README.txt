@@ -32,11 +32,11 @@ Enfin, les logos des réseaux sociaux en bas de page.
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-                                         ***Accéder à la page d'accueil***:
+                                         ***ACCÉDER À LA PAGE D'ACCUEIL***:
  -depuis n'importe quel page, cliquer sur le logo 'My Music ©' présent en haut de page dans le header.
  
   
-                                          ***Accéder à la page Bbis***:
+                                          ***ACCÉDER À LA PAGE B-bis***:
  -sur la page d'accueil, il suffit de cliquer sur 'Youv Dee' écrit en
  tant que noms d'artistes sur la rubrique "mes recherches récentes" pour accéder à la page A . 
  
@@ -44,7 +44,7 @@ Enfin, les logos des réseaux sociaux en bas de page.
  l'image qui correspond à l'artiste YouvDee en bas de page à la rubrique 'Mes artistes'.
  
  
-                                          ***Accéder à la page A***:
+                                          ***ACCÉDER À LA PAGE A***:
  -sur la page d'accueil, il faut cliquer sur l'image de l'artiste Dua Lipa, la 3e artiste en partant de la gauche.
  
  Les pages artistes Abis et Bbis auquel vous accédez ont été réalisé dans le but de pouvoir tenir sur le téléphone.
@@ -54,12 +54,12 @@ Enfin, les logos des réseaux sociaux en bas de page.
    Il y a d'autres page artiste C et D sur lesquel le mediaquery ne veux pas fonctionner, ce sont les premières pages que j'ai réalisé, mais j'ai pas réussi à les faire tenir sur le responsive telephone dans l'inspecteur.
              
              
-                                             ***Accéder à la page C*** 
+                                             ***ACCÉDER À LA PAGE C*** 
  -Depuis la page d'accueil, cliquez sur 'Dua Lipa' dans la liste des 
 noms d'artistes dans la rubrique "Mes recherches récentes". Vous accèderez alors 
 à la page C, qui est la page A d'origine, agencé différement.
 
-                                             ***Accéder à la page D***
+                                             ***ACCÉDER À LA PAGE D***
  -Depuis la page C, cliquez sur le nom d'artiste 'Youv Dee' ou sur l'image correspondante de l'artiste, 
 présent en descendant la page, après la présentation de l'artiste Dua Lipa, dans
  la rubrique "Mes artistes"
@@ -70,9 +70,9 @@ présent en descendant la page, après la présentation de l'artiste Dua Lipa, d
 
 
 
-
+                                                                 ---------
                                                                  09DEC2020
-  
+                                                                 ---------
   
   
   
@@ -104,7 +104,11 @@ Html commencé mais pas encore terminé
 ----------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------
 
+
+                                                               ---------
                                                                10DEC2020
+                                                               ---------
+                                                               
                                    
 J'ai aujourd'hui avancé dans le html et le css de la page d'accueil. J'ai dû recommencer le css parce que je m'étais trompé sur l'attributiion de flex et du grid, ce n'était pas responsive. 
 Je me suis fait un indexBIS pour garder l'ancien (que je supprimerai plus tard) vu que j'avias bien avancé dessus, si jamais j'ai besoin de piocher des choses dedans.
@@ -114,7 +118,13 @@ J'ai ajouté du contenu a la page (images pochettes d'albums et d'artistes). Il 
 ------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------
 
-                                                              11DEC2020    
+
+
+                                                              ---------
+                                                              11DEC2020 
+                                                              ---------
+                                                              
+                                                              
                                                               
 
 J'ai arrangé le html et ajouté certains éléments html pour finaliser au mieux la page et qu'elle soit prête pour les media queries que je veux ajouter, pour qu'elle soit responsive comme je le vois dans ma tête et comme je l'ai fait dans ma maquette.
@@ -134,7 +144,13 @@ Le html et css de la page d'accueil est pratiquement terminé, normalement je pa
 
 -----------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------
+
+
+                                                                  ---------
                                                                   13DEC2020
+                                                                  ---------
+                                                                  
+                                                                  
                                                                   
 J'ai ajouté la page JS et mis en place un scrollreveal, c'est mieux visuelement je trouve. 
 Donc j'ai pris le script du site https://scrollrevealjs.org/ et ai aussi fait une page script pour pouvoir appliquer ce scollreveal sur les éléments que je souhaite en les spécifiant. J'ai ajouté une propriété a la fonction 'reveal' qui s'appelle 'delay': ça permets de pouvoir définir un délai/compte à rebours sur l'affichage des éléments ciblés du html. 
@@ -145,13 +161,27 @@ J'ai fait le html et commencé le css, le plan du site est pratiquement fait.
 
 ----------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------
+
+
+                                                            ---------
                                                             14DEC2020
+                                                            ---------
+                                                            
+                                                            
+                                                            
                                                             
 J'ai fait la page présentation d'un artiste, mais j'ai un problème: le média query ne veut pas fonctionner à 100% je ne sais pas pourquoi. Sur chrome il semble ne pas fonctionner, mais sur Firefox il marche de temps en temps. J'essayerai de voir ce que je peux faire demain mais je vois pas trop ce que je peux faire, j'ai essayé tellement de choses. Peut etre qu c'est le bug que GoogleChrome a subi aujourd'hui qui fait ça, mais j'en suis pas sur.      
 
 -----------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------
+
+
+
+                                                            ---------
                                                             15DEC2020
+                                                            ---------
+                                                            
+                                                            
                                                             
   J'ai  pas réussi à résoudre le problème de l'inspecteur. J'ai finalisé la page A et page B, inséré des liens sur le titre en header pour pouvoir revenir sur la page d'accueil.
   J'ai placé des :hover comme sur les pages précédentes et un scrollreveal.
@@ -161,8 +191,13 @@ J'ai fait la page présentation d'un artiste, mais j'ai un problème: le média 
   
    -----------------------------------------------------------------------------------------------------------
  -------------------------------------------------------------------------------------------------------------
-                                                            
+ 
+ 
+                                                            ---------
                                                             16DEC2020
+                                                            ---------
+                                                            
+                                                            
                                                             
  J'ai encore tenté énormément de choses pour rendre responsive correctement mes pages C et D (les pages artistA et artistB d'origine), j'ai meme recommencé les pages de zéro mais je n'ai pas réussi à trouver le problème.
   
