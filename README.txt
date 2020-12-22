@@ -32,11 +32,9 @@ Enfin, les logos des réseaux sociaux en bas de page.
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-                                         ***ACCÉDER À LA PAGE D'ACCUEIL***:
+                                         ***ACCÉDER À LA PAGE D'ACCUEIL***:                                                                 
  -depuis n'importe quel page, cliquer sur le logo 'My Music ©' présent en haut de page dans le header.
  
-  
-  
   
                                           ***ACCÉDER À LA PAGE A***:
  -sur la page d'accueil, il faut cliquer sur l'image de l'artiste Dua Lipa, la 3e artiste en partant de la gauche.
