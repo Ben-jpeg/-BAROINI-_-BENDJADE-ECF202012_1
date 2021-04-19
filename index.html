@@ -16,6 +16,8 @@
 <!-------------------------------BODY START----------------------------------->
 
 <body class="grid">
+
+    <!-- Header---------------->
     <header class="flex jcspacebetween">
         <div class="headerGauche">
             <h1><a href=index.html>MY MUSIC</a><span class="c">©</span></h1>
@@ -34,7 +36,9 @@
 
         </div>
     </header>
+    <!-- fin Header---------------->
 
+    <!-- Main---------------------->
     <main>
 
         <h2 class="titreBold">LES ARTISTES</h2>
@@ -70,13 +74,23 @@
         <!-- phrase catchy de bas de page d'accueil-->
         <p class="blabla"> Plus de 100 000 musiques disponibles sur tout supports. Que ce soit sur téléphone, ordinateur ou même tablette, MyMusic© vous suit partout !</p>
 
+        <!-- logo réseaux sociaux-->
         <article class="logoBot">
             <i class="fab logoDown fa-instagram"></i> <i class="fab logoDown fa-twitter"></i>
         </article>
+
+        <!-- autocomplete/chercher des musiques par zone(pas encore fonctionnel)-->
+        <article class="autoC">
+            <label for="keyword">Chercher des musiques par villes/pays :</label> <br>
+            <input id="keyword" type="search" placeholder="Ex: Los Angeles"></input>
+            <ul id="ul"></ul>
+        </article>
+
     </main>
+    <!--fin Main---------------------->
 
+    <!-- Footer ----------------------->
     <footer>
-
         <ul class="puces flex jcspacebetween ulFooter">
             <li><a href="#">A PROPOS</a></li>
             <li><a href="#">SUPPORT</a></li>
@@ -87,11 +101,10 @@
         </ul>
 
     </footer>
+    <!--fin  Footer -------------------->
 
-
-    <!-- Petit script js pour le scrollreveal (ya l'autre script du site au head ,mais celui là c'est pour ma page js)-->
+    <!-- Page script js pour le scrollreveal et l'autocomplétion-->
     <script src="./scripts/scrollreveal.js"></script>
-
 </body>
 
 </html>

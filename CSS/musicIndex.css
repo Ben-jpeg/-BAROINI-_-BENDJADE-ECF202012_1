@@ -201,6 +201,18 @@ footer {
     margin: 1%;
 }
 
+.autoC {
+    text-align: center;
+    color: rgb(255, 153, 19);
+    text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.1em;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+#ul {
+    font-size: 20px;
+}
+
 
 /*//////////////////////////////////////////////////////////////////*/
 
